@@ -16,42 +16,38 @@ body.toc {
     height: 100%;
     margin-top: -50px;
     }
-section {
-    position: relative;
-    z-index: 1;
-    top: 10px;
-    background-color: ivory;
-    margin-top: 0px;
-    margin-left: 70px;
-    padding: 1px 50px 1px 50px;
-    width: 1000px;
-    box-shadow: 10px 10px 5px grey;
+.grid-container {
+    display: grid;
+    grid-template-columns: 70px 1000px;
+    grid-gap: 0px;
+    padding: 0px;
     }
-article {
-    display: block;
-    padding-top: 5px;
-    clear: right;
-    }
-aside {
-    position: relative;
-    z-index: 4;
+.spiral {
+    grid-row: 1 / 4;
     background-image: url(images/spiral.png);
     background-repeat: repeat-y;
-    margin-top: 10px;
-    float: left;
-    width: 70px;
-    height: 1045px;
+    z-index: 4;
     }
-footer {
-    position: relative;
-    z-index: 3;
+.heading {
     background-color: ivory;
-    height: 50px;
-    font-size: 70%;
-    margin-left: 70px;
-    padding: 1px 50px 1px 50px;
-    width: 1000px;
-    box-shadow: 10px 10px 5px grey;
+    padding-left: 50px;
+    box-shadow: 5px 5px 5px grey;
+    }
+.content {
+    background-color: ivory;
+    padding-left: 50px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px grey;
+    }
+.run {
+    clear:both;
+    }
+.footer {
+    background-color: ivory;
+    padding-left: 50px;
+    z-index: 3;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 75%;
     }
 div.trans {
     background-color: saddlebrown;
@@ -95,17 +91,12 @@ iframe {
     width: 90%;
     height: 90%;
     }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
 h1 {
     font-size: 250%;
     color: maroon;
     font-weight: bold;
-    margin-top: 1.7em;
-    margin-bottom: 1.1em;
+    margin-top: 2.4em;
+    margin-bottom: 0.5em;
    }
 h1.toc {
     color: ivory;
@@ -115,7 +106,7 @@ h2 {
     color: maroon;
     font-weight: bold;
     margin-top: 1.5em;
-    margin-bottom: 1.1em;
+    margin-bottom: 0.5em;
    }
 img {
     width: 600px;
@@ -123,11 +114,18 @@ img {
     margin: 0px 20px 20px 20px;
     box-shadow: 10px 10px 5px #888888;
     }
+img.left {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    }
 img.small {
     width: 300px;
     float: right;
     margin: 0px 20px 20px 20px;
     box-shadow: 10px 10px 5px #888888;
+    }
+img.med {
+    width: 400px;
     }
 p.vert {
     color: ivory;
@@ -135,25 +133,18 @@ p.vert {
     padding-top: 15px;
     padding-left: 0px;
     }
-table {
-    width: 100%;
-    border: 1px solid ivory;
-    padding: 5px;
-    overflow-x: auto;
-    }
-td.year {
-    width: 15%;
+td {
     vertical-align: top;
     }
-a:link {
-    color: red;
+td > a:link {
+    color: yellow;
     }
-a:visited {
+td > a:visited {
     color: lightgreen;
     }
-a:hover {
+td > a:hover {
     color: ivory;
     }
-a:active {
+td > a:active {
     color: blue;
     }
