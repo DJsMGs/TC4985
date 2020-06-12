@@ -1,0 +1,76 @@
+
+body {
+    font-size: 100%;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background-color: darkgrey;
+    line-height: 1.2em;
+    margin-left: 0px;
+    margin-right: 20px;
+    }
+header {
+    background-color: white;
+    margin-left: 70px;
+    padding: 1px 50px 1px 50px;
+    width: 700px;
+    box-shadow: 10px 10px 5px grey;
+    }
+section {
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 70px;
+    padding: 1px 50px 1px 50px;
+    width: 700px;
+    box-shadow: 10px 10px 5px grey;
+    }
+footer {
+    background-color: white;
+    font-size: 70%;
+    margin-left: 70px;
+    padding: 30px 50px 50px 50px;
+    width: 700px;
+    box-shadow: 10px 10px 5px grey;
+    }
+div.book {
+    background-image: url("images/bookNarrow.png");
+    background-repeat: repeat-y;
+    }
+p  {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    }
+h1 {
+    font-size: 2.5em;
+    line-height: 1em; /* To prevent text overlapping when wrapped */
+    color: maroon;
+    font-weight: bold;
+    margin-top: 2.0em;
+    margin-bottom: 1em;
+   }
+h2 {
+    font-size: 1.5em;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+   }
+h3 {
+    font-size: 1em;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    }
+img {
+    box-shadow: 10px 10px 5px #888888;
+    }
+img.r {
+    float: right;
+    margin: 0px 0px 20px 20px;
+    }
+img.l {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    }
