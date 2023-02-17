@@ -21,7 +21,7 @@
   background-image: url('images/spiral.png');
   background-repeat: repeat-y;
   min-width: 25rem; /* Don't let the content get too narrow */
-  max-width: 60rem; /*  Don't let the content get too wide */
+  max-width: 70rem; /*  Don't let the content get too wide */
   padding: 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
