@@ -127,6 +127,17 @@ img.small {
     }
 img.med {
     width: 400px;
+    float: right;
+    }
+img.medl {
+    width: 400px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    }
+video.v1 {
+    float: left;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 10px 10px 5px #888888;
     }
 p.vert {
     color: ivory;
