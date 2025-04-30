@@ -23,6 +23,13 @@ h2 {
     margin-top: 1.5em;
     margin-bottom: 1.1em;
    }
+   h3 {
+       font-size: 120%;
+       color: maroon;
+       font-weight: bold;
+       margin-top: 1.5em;
+       margin-bottom: 0.8em;
+      }
 div.spiral {
     background-image: url("images/spiral.png");
     background-repeat: repeat-y;
