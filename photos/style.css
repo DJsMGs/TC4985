@@ -1,0 +1,75 @@
+html {
+    background-color: ivory;
+    }
+body {
+    margin: auto;
+    width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12pt;
+    font-family: "Comic Sans MS", 'Marker Felt', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   }
+h1 {
+    font-size: 300%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.7em;
+    margin-bottom: 1.0em;
+   }
+h2 {
+    font-size: 200%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+   }
+h3 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+   }
+
+.imgl {
+    width: 26rem;
+    float: left;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 0px 20px 20px 0px;
+}
+.imgr {
+    width: 26rem;
+    float: right;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 0px 0px 20px 20px;
+}
+video.vidl {
+    width: 26.5rem;
+    height: 14.9rem;
+    float: left;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 0px 20px 20px 0px;
+}
+.right-align {
+  text-align: right;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+    }
+a:visited {
+    color: green;
+    text-decoration: none;
+    }
+a:hover {
+    color: red;
+    text-decoration: none;
+    }
+a:active {
+    color: hotpink;
+    text-decoration: none;
+    }
